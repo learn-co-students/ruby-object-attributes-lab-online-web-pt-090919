@@ -1,14 +1,17 @@
 class Dog
-  def name= (dog_name)
-    @this_dogs_name = dogs_name
-  end
-
   def name
     @name
   end
-end
 
-def name = (fido)
-  @name = fido
-end
+  def name=(name)
+    @name = name
+  end
+
+  def breed
+    @breed
+  end
+
+  def breed=(breed)
+    @breed = breed
+  end
 end
